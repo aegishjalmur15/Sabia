@@ -1,0 +1,80 @@
+main{
+    width: 100%;
+    height: 100vh;
+
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.leftSideWrapper{
+    width: 40vw;
+    height: 100%;
+
+    background-color: var(--midd-color);
+
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+.logo-container{
+    margin-top: 10%;
+    width: 5.3rem;
+    height: 5.3rem;
+    padding: 1.5%;
+    background-color: var(--black);
+    border-radius: 40%;
+}
+.logo{
+    width: 5.3rem;
+    height: 5.3rem;
+    
+}
+.explainContainer{
+    
+    width: 85%;
+    height: 70%;
+    padding: 5%;
+
+    display: flex;
+    flex-direction: column;
+
+    justify-content: flex-start;
+    align-items: center;
+}
+.explainHeader {
+    width: 100%;
+    text-align:center;
+    margin-top: 3%;
+    font-family: 'roboto', sans-serif;
+    font-weight: 700;
+    font-size: 2.5rem ;
+    color: var(--pre-bottom-color);
+    padding: 0.2rem;
+    border-bottom: 0.01rem white solid;
+}
+
+.explainContent{
+    margin-top: 3%;
+    color: var(--top-color);
+    text-align: justify;
+    line-height: 1.9rem;
+    font-size: 1.4rem;
+    font-family: "roboto",sans-serif;
+    font-weight: 500;
+}
+
+.rigthSideWrapper{
+    width: 60vw;
+    height: 100%;
+
+    background-color: var(--bottom-color);
+
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+}

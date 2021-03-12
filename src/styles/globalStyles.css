@@ -1,0 +1,18 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    text-decoration: none;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+}
+:root{
+    --top-color: #603473;
+    --top-light-color: #9c52bb;
+    --midd-color: #C4B0D9;
+    --pre-bottom-color: #D9814E;
+    --bottom-color: #F28F38;
+    --black: #0D0D0D;
+}

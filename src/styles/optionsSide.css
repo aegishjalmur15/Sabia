@@ -1,0 +1,86 @@
+.optionsWrapper{
+    height: 100vh;
+    width: 23.5vw;
+    background-color: var(--top-color);
+    display: flex;
+    justify-content: flex-end;
+    border-right: 0.1rem solid var(--pre-bottom-color);
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    height: 85%;
+    width: 65%;
+    padding: 10%
+
+}
+.logoOp{
+    width: 25%;
+    height: 10%;
+    border-radius: 40%;
+    transition: background-color 400ms;
+}
+.logoImg{
+    width: 100%;;
+    height: 100%;
+}
+.logoOp:hover{
+    background-color:var(--top-light-color);
+}
+.options{
+    margin-top: 1.5rem;
+    width: 100%;
+    height: auto
+}
+.op-nav-bar{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 2.5rem;
+    padding: 0.5rem;
+    border-radius: 0.6rem;
+    transition: background-color 400ms;
+}
+h4{
+    margin-left: 0.6rem;
+    font-size: 1.3rem;
+    color:#f1f1f1;
+    font-family: 'roboto', sans-serif;
+
+}
+.op-nav-bar:not(:first-child) {
+    margin-top: 4%;
+}
+.op-nav-bar:hover{
+    background-color: var(--top-light-color);
+}
+.footer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 2.5rem;
+    padding: 0.5rem;
+    border-radius: 1.4rem;
+    transition: background-color 400ms;
+    bottom: 0.3rem;
+    position: absolute;
+}
+.footer:hover{
+    background-color: var(--top-light-color);
+}
+.profileImg{
+    height: 2rem;
+    width: 2rem;
+    border: 1px solid #f1f1f1;
+    border-radius: 1rem;
+    object-fit: cover
+
+}
+.userName{
+    margin-left: 0.6rem;
+    font-family: 'roboto', sans-serif;
+    font-size: 1.2rem;
+    color:#f1f1f1;
+    user-select: none;
+}
